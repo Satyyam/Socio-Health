@@ -3,5 +3,6 @@ Socio health app is an android app which takes user age and the the social platf
 
 ![](https://github.com/Satyyam/Socio-Health/blob/master/LongScreenshot_2021-05-20-23-02-43.png)
 ![](https://github.com/Satyyam/Socio-Health/blob/master/LongScreenshot_2021-05-20-23-03-17.png)
-![](https://github.com/Satyyam/Socio-Health/blob/master/LongScreenshot_2021-05-20-23-04-06.png)
 ![](https://github.com/Satyyam/Socio-Health/blob/master/LongScreenshot_2021-05-20-23-04-53.png)
+![](https://github.com/Satyyam/Socio-Health/blob/master/LongScreenshot_2021-05-20-23-04-06.png)
+
