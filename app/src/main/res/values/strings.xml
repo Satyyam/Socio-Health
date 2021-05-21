@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Socio Health</string>
+    <string name="app_name2">Result</string>
+    <string name="bolded_what"><b> WhatsApp </b></string>
+    <string name="bolded_insta"><b> Instagram </b></string>
+    <string name="bolded_fb"><b> Facebook </b></string>
+    <string name="bolded_Li"><b> LinkedIn </b></string>
+    <string name="bolded_Pi"><b> Pinterest </b></string>
+    <string name="bolded_fl"> Know your Socio Health!</string>
+    <string name="bolded_sl"> Which Social Media?</string>
+    <string name="bolded_tl"> Daily Average Minutes On social Media</string>
+</resources>

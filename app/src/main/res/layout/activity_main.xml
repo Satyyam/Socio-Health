@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context=".MainActivity"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bolded_fl"
+                android:background="@drawable/rounded_white_cornors"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:padding="5dp"
+                android:textSize="20sp"
+                style="@style/HeaderTextStyle"
+                />
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:layout_marginBottom="16dp"
+                android:inputType="textCapWords"
+                />
+
+            <EditText
+                android:id="@+id/Age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age (Should be greater than 13)"
+                android:layout_marginBottom="16dp"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/bolded_sl"
+                android:background="@drawable/rounded_white_cornors"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                style="@style/HeaderTextStyle"
+                />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp"
+                >
+                <RadioButton
+                    android:id="@+id/whatsapp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_wa_buttons"
+                    android:textColor="#ffffff"
+                    android:padding="2dp"
+                    android:text="@string/bolded_what"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/insta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ronded_insta_buttons"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="@string/bolded_insta"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/fb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_fb_buttons"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/bolded_fb"
+                    android:padding="2dp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/Li"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounde_li_button"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/bolded_Li"
+                    android:padding="2dp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+                <RadioButton
+                    android:id="@+id/pint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounde_pi_buttons"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/bolded_Pi"
+                    android:padding="2dp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/bolded_tl"
+                android:background="@drawable/rounded_white_cornors"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                style="@style/HeaderTextStyle"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:text="-"
+                    android:background="@drawable/secon_round"
+                    android:onClick="decrement"
+                    android:layout_marginTop="16dp"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/hrs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="10"
+                    android:background="@drawable/rounded_white_cornors"
+                    android:layout_marginBottom="16dp"
+                    android:padding="3dp"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:text="+"
+                    android:onClick="increment"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/secon_round"                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:background="@drawable/secon_round"
+                android:text="Result!"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
