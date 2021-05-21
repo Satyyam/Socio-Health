@@ -1,0 +1,2 @@
+rootProject.name='IIP Project'
+include ':app'
